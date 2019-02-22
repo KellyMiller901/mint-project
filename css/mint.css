@@ -82,7 +82,9 @@ footer{
     margin:10vh auto 0vh auto;
 }
 #logos{
-    width:100%;
+    animation-name: fade;
+    animation-duration: 2s;
+    width:100%
 }
 
 #form-span1{
@@ -145,3 +147,8 @@ section{
     
     
 }
+
+@keyframes fade {
+    from {width: 0%;}
+    to {width:100%}
+  }
